@@ -29,15 +29,26 @@ Third run the program
    dependencies
    
 Fourth I offered some environment what you need to set first
-    pip install opencv-python # installs opencv
-    pip install sklearn # installs scikit-learn
-    brew install bazel # you'll need java8 for this
-    git clone https://github.com/tensorflow/tensorflow.git
-    cd tensorflow
-    git checkout v1.9.0
-    ./configure
-    bazel build --config=opt 
-    //tensorflow/tools/pip_package:build_pip_package 
-    //tensorflow:libtensorflow_framework.so 
-    //tensorflow:libtensorflow.so
-    bazel-bin/tensorflow/tools/pip_package/build_pip
+    pip install opencv-python # installs opencv 
+    
+   pip install sklearn # installs scikit-learn
+   
+   brew install bazel # you'll need java8 for this
+   
+   git clone https://github.com/tensorflow/tensorflow.git
+    
+   cd tensorflow
+    
+   git checkout v1.9.0
+    
+   ./configure
+    
+   bazel build --config=opt 
+    
+   //tensorflow/tools/pip_package:build_pip_package 
+    
+   //tensorflow:libtensorflow_framework.so 
+   
+   //tensorflow:libtensorflow.so
+    
+   bazel-bin/tensorflow/tools/pip_package/build_pip
