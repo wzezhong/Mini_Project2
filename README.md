@@ -1,4 +1,7 @@
 # Mini_project2
+
+I trained two different kinds of photos. One is flower and another is different cars. I just offered different cars trained results screenshot in github because you will get the flower result through tutorials
+
 First, I used tensor flow to study how to deep learning. I used tensorflow tutorial to trained my first part flowers. After I finished the tutorial part of the flowers, I retrained myself part which include cars, suv and truck. If you want to training my part of three kinds of cars, you can download my car photos which included in my photos directory. Also, you can use "googleimagesdownload" function to download some photos. As the following is the tutorial of how to use tensorflow to recognitization images. All of steps in the tutorial, I don't explain it at here. You need to make sure you have installed tensorflow first. Command is "pip install --upgrade tensorflow 1.7.*". https://www.tensorflow.org/hub/tutorials/image_retraining
 
 Second classifier uses the Tensorflow Inception v3 model.
